@@ -20,7 +20,7 @@ async function getGitfoxPath(): Promise<string | null> {
 
   // If there isn't a custom path, look for it using `which
   const stdout = await execute(
-    new Process('/usr/bin/which', { args: ['gf'] })
+    new Process('/usr/bin/which', { args: ['gitfox'] })
   ).catch(() => null)
 
   debug('whichPath=%o', stdout?.trim())
@@ -70,7 +70,7 @@ export async function openRepositoryCommand(
     const result = await execute(
       new Process(gfPath.trim(), { args: [workspacePath] })
     ).catch((error) => {
-      throw new Error(`Failed to run 'gf' ${error.message}`)
+      throw new Error(`Failed to run 'gitfox' ${error.message}`)
     })
     debug('result=%o', result)
   } catch (error) {

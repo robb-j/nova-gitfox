@@ -28,7 +28,7 @@
       "key": "robb-j.gitfox.gfPath",
       "title": "Custom path",
       "type": "string",
-      "description": "Set this to provide a custom path for the `gf` binary. If not set, a `which` process is used find the gf binary."
+      "description": "Set this to provide a custom path for the `gitfox` binary. If not set, a `which` process is used find the binary."
     }
   ],
   "configWorkspace": []

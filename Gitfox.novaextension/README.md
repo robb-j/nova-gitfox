@@ -20,12 +20,12 @@ If you don't have Gitfox's Command Line Utilities installed, you will be prompte
 
 Gitfox Extension uses:
 
-- `process` is used to locate and run the `gf` binary which lets it open repositories
-- `filesystem/readonly` is used to check your current workspace is a git repository and validate custom `gf` paths if you set one in [configuration](#configuration).
+- `process` is used to locate and run the `gitfox` binary which lets it open repositories
+- `filesystem/readonly` is used to check your current workspace is a git repository and validate custom `gitfox` paths if you set one in [configuration](#configuration).
 
 ## Configuration
 
-You can specify a custom path for the `gf` binary if you like.
+You can specify a custom path for the `gitfox` binary if you like.
 To do this, open up **Extensions → Extension Library...** then select Gitfox's **Preferences** tab
 and enter your custom path.
 Gitfox Extension will check the binary is executable for running it.
