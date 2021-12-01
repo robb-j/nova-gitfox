@@ -3,7 +3,7 @@
   "name": "Gitfox",
   "organization": "robb-j",
   "description": "Open a Nova workspace's repository in Gitfox.app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "categories": ["commands"],
   "license": "MIT",
   "repository": "https://github.com/robb-j/nova-gitfox",
