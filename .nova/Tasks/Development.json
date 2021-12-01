@@ -1,0 +1,14 @@
+{
+  "actions": {
+    "build": {
+      "enabled": true,
+      "path": "bin/build.sh"
+    },
+    "run": {
+      "enabled": true,
+      "script": "#!/bin/sh\nnova extension activate Gitfox.novaextension"
+    }
+  },
+  "buildBeforeRunning": true,
+  "identifier": "6D34CD76-0055-4BF0-9448-2105DD0FF041"
+}
