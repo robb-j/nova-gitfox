@@ -6,7 +6,7 @@
     },
     "run": {
       "enabled": true,
-      "script": "#!/bin/sh\nnova extension activate Gitfox.novaextension"
+      "script": "#!/bin/sh\nnova extension activate ."
     }
   },
   "buildBeforeRunning": true,
