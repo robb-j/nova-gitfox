@@ -19,7 +19,7 @@
     "extensions": [
       {
         "command": "robb-j.gitfox.open-repository",
-        "title": "Open it Gitfox"
+        "title": "Open in Gitfox"
       }
     ]
   },
