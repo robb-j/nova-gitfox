@@ -12,13 +12,13 @@ async function getGitfoxPath(): Promise<string | null> {
     const canOpen = nova.fs.access(customPath, nova.fs.X_OK)
 
     if (!canOpen) {
-      throw new Error(`Custom gf binary '${customPath}' is not executable.`)
+      throw new Error(`Custom GitFox binary '${customPath}' is not executable.`)
     }
 
     return customPath
   }
 
-  // If there isn't a custom path, look for it using `which
+  // If there isn't a custom path, look for it using `which`
   const stdout = await execute(
     new Process('/usr/bin/which', { args: ['gitfox'] })
   ).catch(() => null)

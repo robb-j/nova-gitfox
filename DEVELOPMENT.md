@@ -9,7 +9,7 @@ and formatted with [Prettier](https://prettier.io).
 
 ## setup
 
-To work on the extension, you will need to have [Node.js](https://nodejs.org/en/) (version 12+)
+To work on the extension, you will need to have [Node.js](https://nodejs.org/en/) (version 16+)
 and [Nova](https://nova.app) installed on your development machine. Then run:
 
 ```sh
